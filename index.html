@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapOCR - Extract Text from Images</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 600px;
+            line-height: 1.5;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+
+        .launch-btn {
+            background-color: #0047AB;
+            color: white;
+            font-size: 20px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .launch-btn:hover {
+            background-color: #002a6e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo">🔍</div>
+
+    <h1>SnapOCR</h1>
+    <p>Extract text from images instantly with AI-powered OCR.  
+       Upload an image, scan text, and copy it easily!</p>
+
+    <button class="launch-btn" onclick="window.location.href='https://snapocr.streamlit.app/'">Launch App 🚀</button>
+
+</body>
+</html>
